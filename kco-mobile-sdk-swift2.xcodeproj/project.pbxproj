@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D15EF7951D7DBDBD00B478BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15EF7941D7DBDBD00B478BD /* AppDelegate.swift */; };
+		D15EF7971D7DBDBD00B478BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15EF7961D7DBDBD00B478BD /* ViewController.swift */; };
+		D15EF79A1D7DBDBD00B478BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D15EF7981D7DBDBD00B478BD /* Main.storyboard */; };
+		D15EF79C1D7DBDBD00B478BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15EF79B1D7DBDBD00B478BD /* Assets.xcassets */; };
+		D15EF79F1D7DBDBD00B478BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D15EF79D1D7DBDBD00B478BD /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D15EF7911D7DBDBD00B478BD /* kco-mobile-sdk-swift2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kco-mobile-sdk-swift2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D15EF7941D7DBDBD00B478BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D15EF7961D7DBDBD00B478BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D15EF7991D7DBDBD00B478BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D15EF79B1D7DBDBD00B478BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D15EF79E1D7DBDBD00B478BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D15EF7A01D7DBDBD00B478BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D15EF78E1D7DBDBD00B478BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D15EF7881D7DBDBD00B478BD = {
+			isa = PBXGroup;
+			children = (
+				D15EF7931D7DBDBD00B478BD /* kco-mobile-sdk-swift2 */,
+				D15EF7921D7DBDBD00B478BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D15EF7921D7DBDBD00B478BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D15EF7911D7DBDBD00B478BD /* kco-mobile-sdk-swift2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D15EF7931D7DBDBD00B478BD /* kco-mobile-sdk-swift2 */ = {
+			isa = PBXGroup;
+			children = (
+				D15EF7941D7DBDBD00B478BD /* AppDelegate.swift */,
+				D15EF7961D7DBDBD00B478BD /* ViewController.swift */,
+				D15EF7981D7DBDBD00B478BD /* Main.storyboard */,
+				D15EF79B1D7DBDBD00B478BD /* Assets.xcassets */,
+				D15EF79D1D7DBDBD00B478BD /* LaunchScreen.storyboard */,
+				D15EF7A01D7DBDBD00B478BD /* Info.plist */,
+			);
+			path = "kco-mobile-sdk-swift2";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D15EF7901D7DBDBD00B478BD /* kco-mobile-sdk-swift2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D15EF7A31D7DBDBD00B478BD /* Build configuration list for PBXNativeTarget "kco-mobile-sdk-swift2" */;
+			buildPhases = (
+				D15EF78D1D7DBDBD00B478BD /* Sources */,
+				D15EF78E1D7DBDBD00B478BD /* Frameworks */,
+				D15EF78F1D7DBDBD00B478BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "kco-mobile-sdk-swift2";
+			productName = "kco-mobile-sdk-swift2";
+			productReference = D15EF7911D7DBDBD00B478BD /* kco-mobile-sdk-swift2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D15EF7891D7DBDBD00B478BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Hannes Ljungberg";
+				TargetAttributes = {
+					D15EF7901D7DBDBD00B478BD = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D15EF78C1D7DBDBD00B478BD /* Build configuration list for PBXProject "kco-mobile-sdk-swift2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D15EF7881D7DBDBD00B478BD;
+			productRefGroup = D15EF7921D7DBDBD00B478BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D15EF7901D7DBDBD00B478BD /* kco-mobile-sdk-swift2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D15EF78F1D7DBDBD00B478BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D15EF79F1D7DBDBD00B478BD /* LaunchScreen.storyboard in Resources */,
+				D15EF79C1D7DBDBD00B478BD /* Assets.xcassets in Resources */,
+				D15EF79A1D7DBDBD00B478BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D15EF78D1D7DBDBD00B478BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D15EF7971D7DBDBD00B478BD /* ViewController.swift in Sources */,
+				D15EF7951D7DBDBD00B478BD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D15EF7981D7DBDBD00B478BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D15EF7991D7DBDBD00B478BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D15EF79D1D7DBDBD00B478BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D15EF79E1D7DBDBD00B478BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D15EF7A11D7DBDBD00B478BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D15EF7A21D7DBDBD00B478BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D15EF7A41D7DBDBD00B478BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "kco-mobile-sdk-swift2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "se.acme.kco-mobile-sdk-swift2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D15EF7A51D7DBDBD00B478BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "kco-mobile-sdk-swift2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "se.acme.kco-mobile-sdk-swift2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D15EF78C1D7DBDBD00B478BD /* Build configuration list for PBXProject "kco-mobile-sdk-swift2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D15EF7A11D7DBDBD00B478BD /* Debug */,
+				D15EF7A21D7DBDBD00B478BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D15EF7A31D7DBDBD00B478BD /* Build configuration list for PBXNativeTarget "kco-mobile-sdk-swift2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D15EF7A41D7DBDBD00B478BD /* Debug */,
+				D15EF7A51D7DBDBD00B478BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D15EF7891D7DBDBD00B478BD /* Project object */;
+}
