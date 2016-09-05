@@ -12,6 +12,15 @@
 		D15EF79A1D7DBDBD00B478BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D15EF7981D7DBDBD00B478BD /* Main.storyboard */; };
 		D15EF79C1D7DBDBD00B478BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15EF79B1D7DBDBD00B478BD /* Assets.xcassets */; };
 		D15EF79F1D7DBDBD00B478BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D15EF79D1D7DBDBD00B478BD /* LaunchScreen.storyboard */; };
+		D15EF7A71D7DBDD300B478BD /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D15EF7A61D7DBDD300B478BD /* MobileCoreServices.framework */; };
+		D15EF7A91D7DBDD900B478BD /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D15EF7A81D7DBDD900B478BD /* SafariServices.framework */; };
+		D15EF7AB1D7DBDDF00B478BD /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D15EF7AA1D7DBDDF00B478BD /* JavaScriptCore.framework */; };
+		D15EF7AD1D7DBDE500B478BD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D15EF7AC1D7DBDE500B478BD /* SystemConfiguration.framework */; };
+		D15EF7AF1D7DBDEB00B478BD /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D15EF7AE1D7DBDEB00B478BD /* WebKit.framework */; };
+		D15EF7B11D7DBDF100B478BD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D15EF7B01D7DBDF100B478BD /* Security.framework */; };
+		D15EF7B31D7DBDF800B478BD /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D15EF7B21D7DBDF800B478BD /* CFNetwork.framework */; };
+		D15EF7C11D7DC29600B478BD /* KlarnaCheckout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D15EF7C01D7DC29600B478BD /* KlarnaCheckout.framework */; };
+		D15EF7C31D7DC32300B478BD /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D15EF7C21D7DC32300B478BD /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		D15EF79B1D7DBDBD00B478BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D15EF79E1D7DBDBD00B478BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D15EF7A01D7DBDBD00B478BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D15EF7A61D7DBDD300B478BD /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		D15EF7A81D7DBDD900B478BD /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		D15EF7AA1D7DBDDF00B478BD /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		D15EF7AC1D7DBDE500B478BD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D15EF7AE1D7DBDEB00B478BD /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		D15EF7B01D7DBDF100B478BD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D15EF7B21D7DBDF800B478BD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		D15EF7C01D7DC29600B478BD /* KlarnaCheckout.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KlarnaCheckout.framework; sourceTree = "<group>"; };
+		D15EF7C21D7DC32300B478BD /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +47,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D15EF7C31D7DC32300B478BD /* libz.tbd in Frameworks */,
+				D15EF7B31D7DBDF800B478BD /* CFNetwork.framework in Frameworks */,
+				D15EF7B11D7DBDF100B478BD /* Security.framework in Frameworks */,
+				D15EF7AF1D7DBDEB00B478BD /* WebKit.framework in Frameworks */,
+				D15EF7C11D7DC29600B478BD /* KlarnaCheckout.framework in Frameworks */,
+				D15EF7AD1D7DBDE500B478BD /* SystemConfiguration.framework in Frameworks */,
+				D15EF7AB1D7DBDDF00B478BD /* JavaScriptCore.framework in Frameworks */,
+				D15EF7A91D7DBDD900B478BD /* SafariServices.framework in Frameworks */,
+				D15EF7A71D7DBDD300B478BD /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +65,15 @@
 		D15EF7881D7DBDBD00B478BD = {
 			isa = PBXGroup;
 			children = (
+				D15EF7C21D7DC32300B478BD /* libz.tbd */,
+				D15EF7C01D7DC29600B478BD /* KlarnaCheckout.framework */,
+				D15EF7B21D7DBDF800B478BD /* CFNetwork.framework */,
+				D15EF7B01D7DBDF100B478BD /* Security.framework */,
+				D15EF7AE1D7DBDEB00B478BD /* WebKit.framework */,
+				D15EF7AC1D7DBDE500B478BD /* SystemConfiguration.framework */,
+				D15EF7AA1D7DBDDF00B478BD /* JavaScriptCore.framework */,
+				D15EF7A81D7DBDD900B478BD /* SafariServices.framework */,
+				D15EF7A61D7DBDD300B478BD /* MobileCoreServices.framework */,
 				D15EF7931D7DBDBD00B478BD /* kco-mobile-sdk-swift2 */,
 				D15EF7921D7DBDBD00B478BD /* Products */,
 			);
@@ -249,6 +285,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "kco-mobile-sdk-swift2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "se.acme.kco-mobile-sdk-swift2";
@@ -260,6 +300,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "kco-mobile-sdk-swift2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "se.acme.kco-mobile-sdk-swift2";
@@ -286,6 +330,7 @@
 				D15EF7A51D7DBDBD00B478BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

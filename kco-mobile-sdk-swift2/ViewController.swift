@@ -7,19 +7,18 @@
 //
 
 import UIKit
+import KlarnaCheckout
 
 class ViewController: UIViewController {
+    var klarnaCheckout: KCOKlarnaCheckout?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        guard let url = NSURL(string: "example://") else { return }
+        klarnaCheckout = KCOKlarnaCheckout(viewController: self, redirectURI: url)
+        klarnaCheckout?.setSnippet("<html></html>")
+        print("done 2")
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 
 }
 
